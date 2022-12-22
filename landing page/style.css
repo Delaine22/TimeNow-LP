@@ -1,0 +1,351 @@
+body{
+    background-color: white;
+}
+.columns1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+   
+}
+/*estilizando a class "columnA"*/
+.columnA{
+    /*max-width: 50%;*/
+    color: rgb(15, 15, 79);
+}
+.content h1{
+   font-size: 60px;
+}
+.content p{
+    font-size: larger;
+}
+/* estlizando a nav bar da class"columnA"*/
+.logo{
+    margin-top: 28px;
+}
+.columnA nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: rgb(15, 15, 79);
+}
+.columnA nav ul{
+    list-style: none;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.columnA nav ul li{
+margin: 20px;
+}
+.columnA nav ul li a{
+    text-decoration: none;
+}
+/* fim da estilizacao*/
+
+.form input{
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(15, 15, 79);
+    color: white;
+}
+.form a{
+    font-size: larger;
+    text-decoration: none;
+}
+/*fim da estilizacao da class "columnA"*/
+
+/* estilizacao da class "columnB"*/
+.columnB{
+   background-color:rgb(59 130 246 / 0.5);
+    flex-direction: column;
+}
+.columnB img{
+width: 850px;
+height: 600px;
+margin-top: 50px;
+}
+.columnB nav{
+    text-align: end;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.columnB nav input{
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(15, 15, 79);
+    color: white;
+}
+/*fim da estilizacao da class"column B"*/
+
+/*stilizacao da class "columns2"*/
+.columns2{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columnC h2{
+    color: rgb(15, 15, 79);
+}
+.article img{
+    width: 50px;
+    height: 50px;
+}
+.columnD{
+    margin-right: 250px;
+    color: rgb(105, 99, 99);
+}
+
+/*estilizacao da class "columns3"*/
+.columns3{
+    font-size: larger;
+    margin-top: 30px;
+    background-color: rgb(141, 234, 206);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color:rgb(50, 50, 125)
+}
+.columnE{
+    margin-left: 100px;
+}
+.columnE h2{
+color: rgb(5, 105, 75);
+}
+.columnE input{
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(15, 15, 79);
+    color: white;
+    margin-bottom: 17px;
+}
+
+.columnF{
+    margin-right: 250px;
+}
+.columnF h2{
+color: rgb(5, 105, 75);
+}
+.columnF a{
+    text-decoration: none;
+    color: rgb(105, 99, 99);
+}
+
+.links{
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.links img{
+    width: 20px;
+    height: 20px;
+}
+.product{
+ 
+    display: flex;
+    flex-direction: column;
+}
+.product a{
+    text-decoration: none;
+    color: rgb(105, 99, 99);
+}
+.help{
+    display: flex;
+    flex-direction: column;
+}
+.help a{
+    text-decoration: none;
+    color: rgb(105, 99, 99);
+}
+.company{
+    display: flex;
+    flex-direction: column;
+}
+.company a{
+    text-decoration: none;
+    color: rgb(105, 99, 99);
+}
+.input form{
+ align-items: center;
+display: flex;
+flex-direction: row;
+height: 45px;
+width: 290px;
+border: 1px solid rgb(105, 99, 99);
+border-radius: 3px;
+}
+#email{
+    padding:5px;
+    border-style: none;
+    width: 140px ;
+    height: 30px;
+}
+#button{
+    width: 140px;
+    height: 40px;
+    margin-right: 2px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(15, 15, 79);
+    color: white;
+}
+
+@media(max-width:320px){
+   .columns1{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+   }
+   .columnA{
+    width: 100%;
+    font-size: small;
+   }
+   .content h1{
+font-size: medium;
+   }
+   .columnB{
+    max-width: 100%;
+   }
+   .columnB img{
+    width: 280px;
+    height: 230px;
+    }
+    .columns2{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    }
+    .columnC{
+        max-width: 100%;
+        font-size: small;
+    }
+    .columnc h2{
+        font-size: medium;
+    }
+    .article{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .article img{
+        width:30px ;
+        height: 30px;
+    }
+    .columnD{
+        font-size: large;
+        max-width: 100%;
+        font-size: small;
+    }
+    .columns3{
+     display: flex;
+    flex-direction: column;
+    font-size: small;
+    }
+    .columnE{
+        margin: 2px;
+        width:100% ;
+    }
+    .columnF{
+        margin: 2px;
+        width: 100%;
+    }
+    .links{
+     margin: 2px;
+     width: 100%;
+      display: flex;
+     flex-direction: column;
+    }
+ .input form{
+ /* align-items:flex-start;
+  display: flex;*/
+  flex-direction: row;
+  /*height: 35px;*/
+ 
+}
+#email{
+    background-color: #7777;
+    padding:5px;
+    border-style: none;
+    width: 100px ;
+    height: 30px 
+}
+#button{
+    width: 120px;
+    height: 40px;
+    margin-right: 2px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(15, 15, 79);
+    color: white;
+}
+}
+
+@media(max-width:720px){
+    .columns1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 2px;
+    }
+    .columnA{
+        font-size: medium;
+    }
+    .columnA h1{
+        font-size: larger;
+    }
+    .columnB img{
+        margin-left: 17px;
+        width: 290px;
+        height: 250px;
+    }
+    .columns2{
+    display: flex;
+     flex-direction: column;
+    width: 100%;
+     margin: 2px;
+    }
+    .columnC{
+        display: flex;
+        flex-direction: row;
+    }
+    .article{
+     margin-top: 30px;
+    }
+    .article img{
+width: 40px;
+height: 40px;
+    }
+    .columns3{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+    .columnE{
+        margin: 2px;
+    }
+    .columnF{
+        margin: 2px;
+    }
+    .links{
+        margin: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
